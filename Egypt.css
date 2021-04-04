@@ -46,7 +46,7 @@
 	.box_right {
 		margin-left: 5px;
 		width: 800px;
-		background-color: #333;
+		background-color: #0F9D58;
 		text-align: center; 
 		font: 25px cursive, serif;
 		text-align: justify;
@@ -57,7 +57,7 @@
 
 	
 	#inner_box {
-		border: 5px solid #0F9D58;
+		border: 5px solid #333;
 		padding: 10px;
 	}
 		
