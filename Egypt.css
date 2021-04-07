@@ -19,6 +19,7 @@
 			.topnav {
 				background-color: #F4B400;
 				overflow: hidden;
+				border-radius: 25px;
 			}
 
 			.topnav a {
@@ -36,7 +37,7 @@
 			}
 
 			.topnav a.active {
-				background-color:  #0F9D58;
+				background-color: #0F9D58;
 				color: white;
 			}
 		 
@@ -64,6 +65,7 @@
 				margin-left: 0px;
 				padding: 10px;
 				width: 560px;
+				border-radius: 10px;
 			}
 			
 			.textbox {
@@ -75,6 +77,7 @@
 				color: white;
 				display: flex;
         justify-content: space-around;
+				border-radius: 10px;
 			}
 			
 			#left {
@@ -90,11 +93,14 @@
 			
 			.textbox a {
 				padding: 10px;
+				background-color: #F4B400;
+				color: white;
+				border-radius: 25px;
 			}
 			
 			.textbox a:hover {
-				background-color: #F4B400;
 				color: black;
+				text-decoration: underline;
 			}
 			
 			#right {
