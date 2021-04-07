@@ -1,119 +1,123 @@
-	
-	body { 
-		background-color: ; 
-		font-family: 'Comfortaa', cursive;
-	}
-	
-	.head1 {
-		padding-bottom: 5px;
-	}
+			
+			body { 
+				background-color: #3AAFA9; 
+				font-family: 'Comfortaa', cursive;
+			}
+			
+			.head1 {
+				padding-bottom: 5px;
+			}
 
-	.head1 a { 
-		text-align: left; 
-		color: #4f4f4a; 
-		font: 40px 'Quicksand', sans-serif;
-		font-style: 'bold 700';
-		font-weight:bold;
-	}
- 
-	.paragraph { 
-		text-align: center; 
-		font: bold 25px 'Comfortaa', cursive;
-	}
+			.head1 a { 
+				text-align: left; 
+				color: white; 
+				font: 40px 'Quicksand', sans-serif;
+				font-style: 'bold 700';
+				font-weight:bold;
+			}
+		 
+			.topnav {
+				background-color: #F4B400;
+				overflow: hidden;
+			}
 
-	ol li {  
-		font: bold 25px 'Comfortaa', cursive;
-	}
+			.topnav a {
+				float: left;
+				color: #f2f2f2;
+				text-align: center;
+				padding: 14px 16px;
+				text-decoration: none;
+				font: 17px 'Comfortaa', cursive;
+			}
 
-	ul li { 
-		font: normal 20px 'Comfortaa', cursive;
-		list-style: square; 
-	}
- 
-	a { 
-		text-decoration: none; 
-	}
-	
-	.first {
-		display: flex;
-		flex-wrap: wrap;
-  }
-	
-	#watch {
-		background-color: #DB4437;
-		padding: 5px;
-		text-align: center;
-	}
-	
-	.watch-read {
-		font: bold 25px 'Comfortaa', cursive;
-		color: white;
-		text-align: center;
-	}
-	
-	#videobox {
-		display: flex;
-		justify-content: left;
-	}
-	
-	.box_right {
-		margin-left: 5px;
-		width: 800px;
-		background-color: #0F9D58;
-		text-align: center; 
-		font: 25px 'Comfortaa', cursive;
-		text-align: justify;
-		text-justify: inter-word;
-		color: white;
-		padding: 10px;
-	}
-		
-	#just-height {
-		height: 415px;
-	}
-	
-	.down_boxes {
-		
-	}
-	
-	.down_boxes p {
-		float: center;
-		color: #f2f2f2;
-		text-align: center;
-		padding: 14px 16px;
-		text-decoration: none;
-		font: 25px 'Comfortaa', cursive;
-	}
-	
-	.down_boxes p:hover {
-		background-color: #ddd;
-		color: black;
-	}
-	
-	/* Add a black background color to the top navigation */
-	.topnav {
-		background-color: #F4B400;
-		overflow: hidden;
-	}
+			.topnav a:hover {
+				background-color: #ddd;
+				color: black;
+			}
 
-	/* Style the links inside the navigation bar */
-	.topnav a {
-		float: left;
-		color: #f2f2f2;
-		text-align: center;
-		padding: 14px 16px;
-		text-decoration: none;
-		font: 17px 'Comfortaa', cursive;
-	}
+			.topnav a.active {
+				background-color:  #0F9D58;
+				color: white;
+			}
+		 
+			.paragraph { 
+				text-align: center; 
+				font: bold 25px 'Comfortaa', cursive;
+			}
+			
+			a { 
+				text-decoration: none; 
+				color: white;
+			}
+			
+/* ALL PAGES ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+			
+			#container {
+				display: flex;
+				flex-direction: row;
+			}
+			
+			.videobox {
+				background-color: #2B7A78;
+				margin: 10px;
+				margin-right: 0px;
+				margin-left: 0px;
+				padding: 10px;
+				width: 560px;
+			}
+			
+			.textbox {
+				background-color: #2B7A78;
+				margin: 10px;
+				padding: 20px;
+				width: 100%;
+				font: bold 25px 'Comfortaa', cursive;
+				color: white;
+				display: flex;
+        justify-content: space-around;
+			}
+			
+			#left {
+				display: flex;
+				flex-direction: column;
+				justify-content: flex-start;
+				align-items: center;
+			}
+			
+			.upcoming {
+				font-size: 20px;
+			}
+			
+			.textbox a {
+				padding: 10px;
+			}
+			
+			.textbox a:hover {
+				background-color: #F4B400;
+				color: black;
+			}
+			
+			#right {
+				display: flex;
+				flex-direction: column;
+				justify-content: flex-start;
+				align-items: center;
+			}
+			
+/* index.html page ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */	
 
-	/* Change the color of links on hover */
-	.topnav a:hover {
-		background-color: #ddd;
-		color: black;
-	}
+			ol li {  
+				font: bold 25px 'Comfortaa', cursive;
+			}
 
-	/* Add a color to the active/current link */
-	.topnav a.active {
-		background-color: #4285F4;
-		color: white;
-	}
+			ul li { 
+				font: normal 20px 'Comfortaa', cursive;
+				list-style: square; 
+			}
+			
+			#form {
+				background-color: #2B7A78;
+				margin-top: 10px;
+			}
+
+			
