@@ -44,6 +44,7 @@
 			.paragraph { 
 				text-align: center; 
 				font: bold 25px 'Comfortaa', cursive;
+				color: white;
 			}
 			
 			a { 
@@ -78,19 +79,9 @@
 				display: flex;
         justify-content: space-around;
 				border-radius: 10px;
+				flex-wrap: wrap;
 			}
-			
-			#left {
-				display: flex;
-				flex-direction: column;
-				justify-content: flex-start;
-				align-items: center;
-			}
-			
-			.upcoming {
-				font-size: 20px;
-			}
-			
+						
 			.textbox a {
 				padding: 10px;
 				background-color: #F4B400;
@@ -103,6 +94,14 @@
 				text-decoration: underline;
 			}
 			
+			#left {
+				display: flex;
+				flex-direction: column;
+				justify-content: flex-start;
+				align-items: center;
+				text-align: center;
+			}
+						
 			#right {
 				display: flex;
 				flex-direction: column;
@@ -110,15 +109,32 @@
 				align-items: center;
 			}
 			
+			.upcoming {
+				font-size: 20px;
+			}
+			
 /* index.html page ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */	
+
+				.h3box {
+				background-color: #2B7A78;
+				margin: 10px;
+				padding: 20px;
+				font: bold 20px 'Comfortaa', cursive;
+				color: white;
+				border-radius: 10px;
+			}
+			
+/* facts page ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */	
 
 			ol li {  
 				font: bold 25px 'Comfortaa', cursive;
+				color: white;
 			}
 
 			ul li { 
 				font: normal 20px 'Comfortaa', cursive;
 				list-style: square; 
+				color: white;
 			}
 			
 			#form {
