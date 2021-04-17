@@ -122,6 +122,22 @@
 				font: bold 20px 'Comfortaa', cursive;
 				color: white;
 				border-radius: 10px;
+				display: flex;
+				flex-wrap: wrap;
+			}
+			
+			.h3boxtext {
+				width: 600px;
+				line-height: 1.5;
+				text-align: justify;
+			}
+			
+			.h3boximg {
+				margin-left: 10px;
+			}
+			
+			.h3boximg img {
+				width: 600px;
 			}
 			
 /* facts page ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */	
