@@ -104,14 +104,16 @@
 
 			#ddd {
 				padding: 10px;
-				background-color: #F4B400;
+				background-color: white;
 				color: black;
 				border-radius: 25px;
 			}
 
-			#ddd hover {
+			#ddd:hover {
+				background-color: black;
 				color: white;
-				text-decoration: underline;
+				border-radius: 50px;
+
 			}
 						
 			#right {
