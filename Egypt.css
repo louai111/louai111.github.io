@@ -105,13 +105,12 @@
 			#ddd {
 				padding: 10px;
 				background-color: white;
-				color: black;
+				color: #F4B400;
 				border-radius: 25px;
 			}
 
 			#ddd:hover {
 				background-color: black;
-				color: white;
 				border-radius: 50px;
 
 			}
