@@ -101,6 +101,18 @@
 				align-items: center;
 				text-align: center;
 			}
+
+			#ddd {
+				padding: 10px;
+				background-color: #F4B400;
+				color: black;
+				border-radius: 25px;
+			}
+
+			#ddd hover {
+				color: white;
+				text-decoration: underline;
+			}
 						
 			#right {
 				display: flex;
